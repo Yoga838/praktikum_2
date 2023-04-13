@@ -30,8 +30,8 @@ class _HomePageState extends State<HomePage> {
     if (_TinggiController.text != '' && _BeratController.text != '') {
       hitungBmi();
     } else {
-      ScaffoldMessenger.of(context)
-          .showSnackBar(SnackBar(content: const Text('isi semua jancok!')));
+      ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(content: const Text('Tolong isi semua formnya!')));
     }
   }
 
